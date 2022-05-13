@@ -56,9 +56,10 @@ Anyone who wishes to be safe and have clear visibility in bad weather.
 ## Threats
 1. Once the board repaired cannot be replaced quickly.
 2. It has been replaced by advanced technology. Wiper mix might be an issue in the rain.
-# HIGH LEVEL TEST CASES :
+# REQUIREMENTS
+##  HIGH LEVEL TEST CASES :
 
-|	Description | Exp.o/p |	Actual o/p |	Output |
+|	Description | Exp.o/p |	Actual status |	Output |
 |:-----------------|:----------|:---------------|:----------|
 |	check if the BUTTON is pressed	|	Engine starts	|RED LED ON	|PASS|
 |	check if the BUTTON is pressed	|	Wiper starts	|BLUE LED ON	|PASS|
@@ -71,7 +72,7 @@ Anyone who wishes to be safe and have clear visibility in bad weather.
 
 
 # LOW LEVEL TEST CASES :
-|	Description |	Exp.o/p	|Actual o/p	| Output|
+|	Description |	Exp.o/p	|Actual status	| Output|
 |:-------------|:----------|:----------|:-------|
 |	check if the BUTTON is pressed      |	Engine starts	| RED LED ON	                                  |PASS|
 |	check if the BUTTON is pressed again|		Wiper starts and runs at 35% (slow)	| BLUE LED ON	      |PASS|
