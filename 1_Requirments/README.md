@@ -10,3 +10,35 @@ Assuming that the automobile is the microcontroller(STM32F407VG). If the button 
  2. Windows Build Tools
  3. OpenOCD
  4. QEMU
+## COMPONENTS :
+STM32F4O7VG MICROCONTROLLER BOARD
+## DESCRIPTION:
+The STM32F405xx and STM32F407xx family is based on the high-performance Arm® Cortex®-M4 32-bit RISC core operating at a frequency of up to 168 MHz. The Cortex-M4 core features a Floating point unit (FPU) single precision which supports all Arm single-precision data-processing instructions and data types.
+## FEATURES Of STM32F407G
+1. Board power is supplied through USB or an external 5 V supply source.
+2. V and 5 V external application power supply.
+3. Compact Flash, SRAM, PSRAM, NOR, and NAND memories are supported by this flexible static memory controller.
+4. Sleep, Stop, and Standby modes are low-power modes.
+5. 16-stream DMA controller with FIFOs and burst support for general-purpose DMA.
+6. Up to 54 Mbytes/s 8- to 14-bit parallel camera interface.
+7. Generator of true random numbers.
+8. Hardware calendar, CRC calculating unit, 96-bit unique ID RTC, subsecond accuracy.
+## FOLDER STRUCTURE :
+
+  |Folder |Description|
+  |:------------------|:----------------|
+  | `1_Requirements`    |Documents detailing requirements and research|
+  | `2_Architecture`     |Documents specifying design details|
+  | `3_Implementation`   |All code and documentation|
+  | `4_Testplan & Output`|Documents with test plans and procedures|
+  | `5_Report`           |Overall report of the project|
+  | `6_ImageAndOutput`   |Code execution output images|
+# 4'W & 1'H
+## WHAT:
+. Windscreen wipers are required for the driver to have a clear vision, especially in modern high-speed vehicles.
+## WHY:
+. Maintain a clean windscreen that allows for a clear vision at all times.
+## WHEN:
+. The windshield wipers clear the windshield of rain and snow, while the headlights increase vision at night.
+## WHO:
+. Anyone who wishes to be safe and have clear visibility in bad weather.
