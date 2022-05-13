@@ -35,10 +35,47 @@ The STM32F405xx and STM32F407xx family is based on the high-performance Arm® Co
   | `6_ImageAndOutput`   |Code execution output images|
 # 4'W & 1'H
 ## WHAT:
-. Windscreen wipers are required for the driver to have a clear vision, especially in modern high-speed vehicles.
+Windscreen wipers are required for the driver to have a clear vision, especially in modern high-speed vehicles.
 ## WHY:
-. Maintain a clean windscreen that allows for a clear vision at all times.
+Maintain a clean windscreen that allows for a clear vision at all times.
 ## WHEN:
-. The windshield wipers clear the windshield of rain and snow, while the headlights increase vision at night.
+The windshield wipers clear the windshield of rain and snow, while the headlights increase vision at night.
 ## WHO:
-. Anyone who wishes to be safe and have clear visibility in bad weather.
+Anyone who wishes to be safe and have clear visibility in bad weather.
+# SWOT Analysis
+## Strength
+1. Visibility
+2. The wiper does not stop in the middle of the window during drive.
+3. Safety
+## Weakness
+1. High cost
+2. Not automatic
+## Opportunities
+1. Rain sensing and automatic operation can be implemented as further enhancement.
+2. Possibilities for safety and health Promotional Opportunities Installing a wiper system necessitates an increase.
+## Threats
+1. Once the board repaired cannot be replaced quickly.
+2. It has been replaced by advanced technology. Wiper mix might be an issue in the rain.
+# HIGH LEVEL TEST CASES :
+
+|Test ID |	Description |	Exp.i/p	| Exp.o/p |	Actual o/p |	Output |
+|:-------|:-----------------|:----------|:--------|:---------------|:----------|
+|`H_01`|	check if the BUTTON is pressed	|program execution|	Engine starts	|RED LED ON	|PASS|
+|`H_02`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|BLUE LED ON	|PASS|
+|`H_03`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|GREEN LED ON	|PASS|
+|`H_04`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|ORANGE LED ON	|PASS|
+|`H_05`|	check if the BUTTON is pressed	|-----------------|	Engine stop	|RED LED OFF	|PASS|
+
+
+
+
+
+# LOW LEVEL TEST CASES :
+|Test ID |	Description |	Exp.i/p |	Exp.o/p	|Actual o/p	| Output|
+|:-------|:-------------|:--------|:--------|:----------|:-------|
+|`L_01`|	check if the BUTTON is pressed      |	program execution     |	Engine starts	| RED LED ON	                                  |PASS|
+|`L_02`|	check if the BUTTON is pressed again|	program execution     |	Wiper starts and runs at 35% (slow)	| BLUE LED ON	      |PASS|
+|`L_03`|	check if the BUTTON is pressed again|	program execution     |	Wiper starts and runs at 70%	(medium)| GREEN LED ON	      |PASS|
+|`L_04`|	check if the BUTTON is pressed again|	program execution     |	Wiper starts and runs at 100% (fast)|ORANGE LED ON	    |PASS|
+|`L_05`|	check if the BUTTON is pressed again|	-----------------     |	Engine stop	| RED LED OFF                                  	  |PASS|
+
