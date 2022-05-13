@@ -58,13 +58,13 @@ Anyone who wishes to be safe and have clear visibility in bad weather.
 2. It has been replaced by advanced technology. Wiper mix might be an issue in the rain.
 # HIGH LEVEL TEST CASES :
 
-|Test ID |	Description |	Exp.i/p	| Exp.o/p |	Actual o/p |	Output |
-|:-------|:-----------------|:----------|:--------|:---------------|:----------|
-|`H_01`|	check if the BUTTON is pressed	|program execution|	Engine starts	|RED LED ON	|PASS|
-|`H_02`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|BLUE LED ON	|PASS|
-|`H_03`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|GREEN LED ON	|PASS|
-|`H_04`|	check if the BUTTON is pressed	|program execution|	Wiper starts	|ORANGE LED ON	|PASS|
-|`H_05`|	check if the BUTTON is pressed	|-----------------|	Engine stop	|RED LED OFF	|PASS|
+|	Description | Exp.o/p |	Actual o/p |	Output |
+|:-----------------|:----------|:---------------|:----------|
+|	check if the BUTTON is pressed	|	Engine starts	|RED LED ON	|PASS|
+|	check if the BUTTON is pressed	|	Wiper starts	|BLUE LED ON	|PASS|
+|	check if the BUTTON is pressed	|	Wiper starts	|GREEN LED ON	|PASS|
+|	check if the BUTTON is pressed	|	Wiper starts	|ORANGE LED ON	|PASS|
+|	check if the BUTTON is pressed |	Engine stop	|RED LED OFF	|PASS|
 
 
 
