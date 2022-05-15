@@ -74,3 +74,15 @@ Anyone who wishes to be safe and have clear visibility in bad weather.
 |	 if the BUTTON is pressed again| Engine stop	| RED LED OFF                                |PASS|
 # STM32F407G BOARD:
  ![Components](https://user-images.githubusercontent.com/101053082/168285550-ae60b718-d4e9-4bfe-915d-1ed5ac6d7954.png)
+# OUTPUT:
+## WIPER ON STAGE:
+![1 ON STAGE](https://user-images.githubusercontent.com/101053082/168487815-db40effa-eaf5-4071-905f-70107d66d09d.png)
+## WIPER LOW:
+![2 WIPER  LOW](https://user-images.githubusercontent.com/101053082/168487851-58761dcf-d22c-40e9-a9c1-b48805134442.png)
+## WIPER MODERATE:
+![3 WIPER  MODERATE](https://user-images.githubusercontent.com/101053082/168487884-1b387519-4eb0-43cd-8631-d4ef5d611451.png)
+## WIPER HIGH:
+![4 WIPER  HIGH](https://user-images.githubusercontent.com/101053082/168487910-c3b866cb-6314-4687-8b7e-1e043425f4bf.png)
+## WIPER OFF STAGE:
+![5 OFF STATE](https://user-images.githubusercontent.com/101053082/168487939-11daa835-a167-4732-ada0-40b5f8b1f351.png)
+
